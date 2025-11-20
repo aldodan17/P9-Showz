@@ -1,15 +1,71 @@
-# P9-Showz
-Análisis completo de marketing para Showz: métricas de visitas, ventas y gasto publicitario; cohortes, LTV, CAC y ROMI; EDA, visualizaciones y recomendaciones basadas en datos para optimizar inversión y rentabilidad. Incluye limpieza, métricas y conclusiones.
+📊 P9 — Análisis de Marketing y Métricas de Producto para Showz
 
-Este análisis integral de marketing para Showz, una plataforma de venta de entradas, tiene como objetivo identificar qué canales publicitarios generan usuarios más valiosos y cómo optimizar el presupuesto de adquisición. A partir de datos reales de visitas, compras y gastos de marketing, se construyó un flujo analítico completo que permite evaluar el rendimiento de cada fuente y entender el comportamiento del cliente desde su registro hasta su primera compra.
+👤 Autor: Aldo Daniel Galván Rodríguez
 
-El proyecto incluye:
-Limpieza y preparación de datos provenientes de visitas, pedidos y costos.
-Análisis de comportamiento del usuario, incluyendo sesiones, frecuencia de retorno y conversión.
-Cohortes de clientes para evaluar patrones de compra y tiempo hasta la conversión.
-Cálculo de métricas clave: ARPU, ARPPU, LTV, CAC y ROMI por canal.
-Evaluación de rentabilidad para determinar qué plataformas justifican inversión y cuáles no.
-Visualizaciones avanzadas para entender la evolución temporal y diferencias entre dispositivos y fuentes.
-Conclusiones accionables para guiar decisiones estratégicas de marketing basadas en datos.
+🧠 Descripción general del proyecto
 
-Este proyecto demuestra conocimientos sólidos en Python, análisis estadístico, creación de cohortes, visualización de métricas de producto, interpretación de comportamiento del usuario y análisis de rentabilidad. Además, replica un caso real en el que un analista debe comunicar insights clave y recomendar optimizaciones concretas basadas en evidencia.
+Este proyecto simula el trabajo de un analista de datos en Showz, una plataforma de venta de entradas. El objetivo principal fue evaluar el rendimiento de los canales de marketing, entender el comportamiento del usuario y determinar qué fuentes publicitarias aportan clientes rentables, utilizando datos reales de visitas, pedidos y gastos.
+
+El análisis incluye:
+✔ Limpieza y preparación de datos
+✔ Métricas de comportamiento (sesiones, retornos, conversión)
+✔ Análisis de cohortes
+✔ Cálculo de LTV, CAC, ARPU, ARPPU y ROMI
+✔ Visualizaciones avanzadas
+✔ Conclusiones estratégicas para optimizar la inversión publicitaria
+
+🛠️ Tecnologías utilizadas
+
+Python
+pandas
+numpy
+matplotlib
+seaborn
+datetime
+Análisis de Cohortes
+Métricas de Producto (LTV, CAC, ROMI)
+EDA (Exploratory Data Analysis)
+
+📌 Metodología del proyecto
+1️⃣ Preparación y limpieza de datos
+Conversión de fechas y tipos de datos.
+Corrección de sesiones con valores erróneos.
+Integración de datasets (visitas, pedidos, costos).
+Cálculo de duración de sesiones y parámetros por usuario.
+
+2️⃣ Análisis de comportamiento del usuario
+
+Visitas diarias, semanales y mensuales.
+Número de sesiones por usuario.
+Frecuencia de retorno.
+Tiempo desde el registro hasta la primera compra (Conversion 0d, 1d, etc.).
+Distribuciones de compras por cohorte.
+
+3️⃣ Análisis de ventas y valor del cliente
+
+Tamaño promedio de pedido (AOV).
+Número de pedidos por usuario y por cohorte.
+LTV por cohortes y por fuente de adquisición.
+Comparación del gasto vs ingresos obtenidos.
+
+4️⃣ Análisis de marketing y rentabilidad
+
+CAC por fuente.
+Curvas de gasto acumulado.
+Evaluación del retorno (ROMI) por cada plataforma.
+Identificación de los canales más y menos rentables.
+Visualizaciones para entender el rendimiento por dispositivo, fuente y periodo temporal.
+
+📈 Resultados principales
+
+Las cohortes con mayor LTV provenían de fuentes con mayor costo, pero también con mayor retención y número de pedidos.
+Varias fuentes de adquisición tenían CAC por encima del LTV, lo que implica pérdidas.
+Se identificaron canales que, con menor inversión, generan usuarios de alto valor.
+El performance cambia significativamente por dispositivo y periodo del año.
+
+🧪 Conclusiones y recomendaciones
+
+Aumentar inversión en las fuentes con ROMI positivo y LTV superior al CAC.
+Reducir presupuesto en canales con adquisición costosa y baja retención.
+Segmentar campañas por dispositivo y temporada.
+Analizar cohortes más recientes para monitorear cambios en el comportamiento.
